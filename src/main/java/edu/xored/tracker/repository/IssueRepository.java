@@ -1,5 +1,7 @@
-package edu.xored.tracker;
+package edu.xored.tracker.repository;
 
+import edu.xored.tracker.model.Comment;
+import edu.xored.tracker.model.Issue;
 import org.springframework.data.repository.CrudRepository;
 
 public interface IssueRepository extends CrudRepository<Issue,String> {

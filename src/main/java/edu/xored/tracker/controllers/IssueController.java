@@ -1,5 +1,10 @@
-package edu.xored.tracker;
+package edu.xored.tracker.controllers;
 
+import edu.xored.tracker.repository.IssueRepository;
+import edu.xored.tracker.repository.IssueRepositoryImpl;
+import edu.xored.tracker.model.Comment;
+import edu.xored.tracker.model.Issue;
+import edu.xored.tracker.service.AttachmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpHeaders;

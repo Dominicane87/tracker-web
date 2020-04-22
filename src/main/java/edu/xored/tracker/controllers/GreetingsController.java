@@ -1,4 +1,4 @@
-package edu.xored.tracker;
+package edu.xored.tracker.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

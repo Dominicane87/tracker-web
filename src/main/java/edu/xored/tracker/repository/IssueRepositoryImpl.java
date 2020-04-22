@@ -1,5 +1,9 @@
-package edu.xored.tracker;
+package edu.xored.tracker.repository;
 
+import edu.xored.tracker.model.User;
+import edu.xored.tracker.controllers.IssueController;
+import edu.xored.tracker.model.Comment;
+import edu.xored.tracker.model.Issue;
 import org.springframework.stereotype.Service;
 
 import java.io.*;

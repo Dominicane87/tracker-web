@@ -1,7 +1,10 @@
-package edu.xored.tracker;
+package edu.xored.tracker.model;
+
+import lombok.Data;
 
 import java.time.LocalDateTime;
 
+@Data
 public class Comment {
 
     private String author;
@@ -18,19 +21,4 @@ public class Comment {
         this.content = content;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public LocalDateTime getCreatedDateTime() {
-        return createdDateTime;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
 }
